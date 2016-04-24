@@ -1,5 +1,5 @@
 {
-  "name": "sealine-transform",
+  "name": "sealine.transform",
   "version": "0.0.1",
   "description": "``` const Transform = require('saeline.transform'); const transform = new Transform({   minify: true });",
   "main": "dist/index.js",
@@ -33,7 +33,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "test/test.js"
+    "test": "node test/test.js",
+    "build": "gulp build",
+    "publish": "npm run build"
   },
   "repository": {
     "type": "git",
