@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- aaa -->
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="./a.less" />
+  <style>
+  @color: #f00;
+  body {
+    color: @color;
+  }
+  </style>
+</head>
+<style>
+@color: #000;
+body {
+  color: @color;
+}
+</style>
+
+<body>
+  <script>
+  let c = 10;
+  let arr = [1, 2, 3, 4];
+  for (let a of arr) {
+    console.log(a);
+  }
+  class A {
+    hello() {
+      alert('hello')
+    }
+  }
+
+  async function a() {
+    return 'a';
+  }
+  async function b() {
+    var a = await _async();
+    alert(a);
+  }
+  b();
+  </script>
+</body>
+
+</html>
